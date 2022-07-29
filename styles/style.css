@@ -38,6 +38,20 @@ header {
     box-shadow: var(--shadow);
 }
 
+section {
+    border: 1px solid black;
+}
+
+#sports-list {
+    background-color: #f700ff;
+    color: cyan;
+    width: 80px;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
 #cats-list {
     background-color: green;
     box-shadow: 1px 2px 20px -16px rgba(0,0,0,0.65);
