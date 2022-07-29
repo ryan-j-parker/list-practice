@@ -3,4 +3,9 @@ export function renderSportsItem(sport) {
     pTag.textContent = sport;
     pTag.classList.add('aSport');
     return pTag;
+function renderSports(sportsGame) {
+    const pTag = document.createElement('p');
+    pTag.textContent = sportsGame;
+    pTag.classList.add('aSport');
+    return pTag;
 }
