@@ -42,7 +42,15 @@ header {
     flex-wrap: wrap;
 }
 
-.eachSport {}
+.eachSport {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 6px 7px 22px -5px rgba(0, 0, 0, 0.35);
+    color: slateblue;
+    background-color: springgreen;
+
+}
 
 #cats-list {
     display: flex;
@@ -52,23 +60,24 @@ header {
 .cat {
     margin: 5px;
     padding: 5px;
-    box-shadow: 5px 2px 7px 13px rgba(0, 0, 0, 0.55);
+    box-shadow: 4px 4px 15px -3px rgb(0 0 0 / 55%);
     background-color: rgba(37, 224, 37, 0.61);
 }
 
 #foods-list {
     display: flex;
     flex-wrap: wrap;
-    background-color: aqua;
+    background-color: #FF000014;
     margin: 5px;
     padding: 5px;
-    box-shadow: 5px 2px 7px 13px rgba(0, 0, 0, 0.55);
 }
 
 .food {
-    color: black;
-    background-color: blue;
+    color: #4e0707d9;
+    background-color: #9999ffd4;
     margin: 5px;
+    box-shadow: 6px 6px 11px -4px rgba(0, 0, 0, 0.65);
+    text-align: center;
 }
 
 .food h3 .food p {
@@ -78,19 +87,27 @@ header {
 }
 
 #video-games-list {
+    color: #00000065;
     text-align: center;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;
-    height: 300px;
-    width: auto;
-    object-fit: cover;
 }
 
 .video-game {
-    box-shadow: 3px 5px 16px -12px rgba(0, 0, 0, 0.35);
-    
+    color: #00000065;
+    text-align: center;
+    margin-left: 10px;
+    display: inline-block;
+    grid-gap: 5px;
+    padding: 10px;
+    background-color: #00000025;
+    box-shadow: 4px 1px 10px 4px;
+    margin-top: 20px;
+}
+
+.video-game img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
 

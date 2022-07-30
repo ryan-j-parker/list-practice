@@ -15,7 +15,10 @@ const sportsListEl = document.getElementById('sports-list');
 for (let sport of sports) {
     const sportsEl = renderSports(sport);
     sportsListEl.append(sportsEl);
+  console.log(sportsEl);
 }
+
+console.log('sports is good');
 
 import { favoriteFoods } from './favoriteFoods.js';
 import { renderFoods } from './renderFoods.js';
@@ -23,12 +26,12 @@ const foodsListEl = document.getElementById('foods-list');
 
 for (let food of favoriteFoods) {
 
-  const foodEl = renderFoods(food);  
-  foodsListEl.append(foodEl);
-
+    const foodEl = renderFoods(food);  
+    foodsListEl.append(foodEl);
+  console.log(foodEl);
 }
 
-
+console.log('foods is good');
 
 // 1. create an array - export
 // 2. import array into app.js
@@ -45,10 +48,13 @@ import { renderCats } from './render-cats.js';
 const catsList = document.getElementById('cats-list');
 
 for (let cat of cats) {
-  const catEl = renderCats(cat);
+    const catEl = renderCats(cat);
 
-  catsList.append(catEl);
+    catsList.append(catEl);
+  console.log(catEl);
 }
+
+console.log('cats is good');
 /*
 const catsListEl = document.getElementById('cats-list');
 
@@ -83,12 +89,17 @@ catsEl.append(pTag);
 return (pTag);
 */
 
+
+
 import { videoGames } from './video-games.js';
 import { renderVideoGames } from './render-video-games.js';
 const videoGamesList = document.getElementById('video-games-list');
 
 for (let game of videoGames) {
-  const videoGameEl = renderVideoGames(game);
-  videoGamesList.append(videoGameEl);
+    const videoGameEl = renderVideoGames(game);
+    videoGamesList.append(videoGameEl);
+  console.log(videoGameEl);
 }
+
+console.log('video games is good');
 

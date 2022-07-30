@@ -1,22 +1,25 @@
 export function renderVideoGames(videoGames) {
     const videoGameEl = document.createElement('div');
-    const titleEl = document.createElement('h3');
+    const titleOneEl = document.createElement('h3');
+    const titleTwoEl = document.createElement('h3');
     const yearReleasedEl = document.createElement('p');
+    const developerEl = document.createElement('p');
     const genresEl = document.createElement('ul');
     const coverEl = document.createElement('img');
 
-    titleEl.textContent = videoGames.title;
-    yearReleasedEl.textContent = videoGames.yearReleased;
-    genresEl.textContent = videoGames.genres;
-    coverEl.textContent = videoGames.cover;
+    titleOneEl.textContent = videoGames.title1;
+    titleTwoEl.textContent = videoGames.title2;
+    yearReleasedEl.textContent = `released in ${videoGames.yearReleased}`;
+    developerEl.textContent = `developed by: ${videoGames.developer}`;
 
     coverEl.src = videoGames.cover;
+    videoGameEl.append(coverEl);
     videoGameEl.classList.add('video-game');
-    videoGameEl.append(titleEl, yearReleasedEl, genresEl, coverEl);
+    videoGameEl.append(titleOneEl, titleTwoEl, yearReleasedEl, developerEl, genresEl, coverEl);
 
     for (let genre of videoGames.genres) {
         const genreEl = document.createElement('li');
-        genreEl.textContent = genre;
+        genreEl.textContent = `🎮 ${genre}`;
         genresEl.append(genreEl);
     }
     return videoGameEl;
