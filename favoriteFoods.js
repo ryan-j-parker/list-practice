@@ -1,26 +1,32 @@
 export const favoriteFoods = [
     {
         name: 'sushi',
-        type: 'japanese',
+        type: 'Japanese',
         healthy: 'pretty healthy',
         expensive: true,
     },
     {
         name: 'tacos',
-        type: 'mexican',
+        type: 'Mexican',
         healthy: 'not so healthy',
         expensive: false,
     },
     {
         name: 'pizza',
-        type: 'italian',
+        type: 'Italian',
         healthy: 'not healthy',
         expensive: true,
     },
     {
         name: 'sandwiches',
-        type: 'american',
+        type: 'American',
         healthy: 'pretty healthy',
         expensive: false,
+    },
+    {
+        name: 'burgers',
+        type: 'American',
+        healthy: 'not healthy',
+        expensive: true,
     },
 ];

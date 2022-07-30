@@ -17,6 +17,18 @@ for (let sport of sports) {
     sportsListEl.append(sportsEl);
 }
 
+import { favoriteFoods } from './favoriteFoods.js';
+import { renderFoods } from './renderFoods.js';
+const foodsListEl = document.getElementById('foods-list');
+
+for (let food of favoriteFoods) {
+
+  const foodEl = renderFoods(food);  
+  foodsListEl.append(foodEl);
+
+}
+
+
 
 // 1. create an array - export
 // 2. import array into app.js
@@ -26,11 +38,18 @@ for (let sport of sports) {
 // 6. add in text content and classlist
 // 7. create separate render function
 // 8. plug function back into the loop
-/*
+
 import { cats } from './cats.js';
 import { renderCats } from './render-cats.js';
 
+const catsList = document.getElementById('cats-list');
 
+for (let cat of cats) {
+  const catEl = renderCats(cat);
+
+  catsList.append(catEl);
+}
+/*
 const catsListEl = document.getElementById('cats-list');
 
 
@@ -63,3 +82,13 @@ catsEl.append(pTag);
 
 return (pTag);
 */
+
+import { videoGames } from './video-games.js';
+import { renderVideoGames } from './render-video-games.js';
+const videoGamesList = document.getElementById('video-games-list');
+
+for (let game of videoGames) {
+  const videoGameEl = renderVideoGames(game);
+  videoGamesList.append(videoGameEl);
+}
+

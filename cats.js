@@ -1,6 +1,7 @@
 export const cats = [
     {
         name: 'Mouse',
+        whose: 'Ryan\'s',
         age: 10,
         color: 'calico',
         favorites: {
@@ -10,13 +11,14 @@ export const cats = [
         },
     },
     {
-        name: 'Scratchpaws',
-        age: 11,
-        color: 'tabby',
+        name: 'Clementine',
+        whose: 'Maddie\'s',
+        age: 1,
+        color: 'black',
         favorites: {
-            person: 'Britt',
-            toy: 'carrot',
-            treats: 'tuna'
+            person: 'Maddie',
+            toy: 'anything',
+            treats: 'everything'
         },
     },
     {
@@ -31,6 +33,7 @@ export const cats = [
     },
     {
         name: 'Snackpack',
+        whose: 'Britt\'s',
         age: 9,
         color: 'light grey',
         favorites: {

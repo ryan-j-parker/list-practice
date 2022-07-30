@@ -8,6 +8,7 @@ const videoGames = [
             'adventure',
             'fantasy'
         ],
+        cover: <img src="/assets/zelda.png"/>
     },
     {
         title: 'The Elder Scrolls V: Skyrim',
@@ -18,6 +19,7 @@ const videoGames = [
             'adventure',
             'fantasy'
         ],
+        cover: <img src="/assets/skyrim.png" />
     },
     {
         title: 'GoldenEye 007',
@@ -28,6 +30,7 @@ const videoGames = [
             'multiplayer',
             'action'
         ],
+        cover: <img src="/assets/goldeneye.png" />
     },
     {
         title: 'Borderlands 2',
@@ -38,6 +41,7 @@ const videoGames = [
             'action',
             'sci-fi adventure'
         ],
+        cover: <img src="/assets/borderlands.png" />
     },
     {
         title: 'Halo: Combat Evolved',
@@ -47,6 +51,7 @@ const videoGames = [
             'shooter',
             'multiplayer'
         ],
+        cover: <img src="/assets/halo.png" />
     },
 ]
 
