@@ -4,3 +4,4 @@ export function renderSports(sport) {
     pTag.classList.add('aSport');
     return pTag;
 }
+

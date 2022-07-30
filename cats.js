@@ -1,4 +1,4 @@
-export const catsList = [
+export const cats = [
     {
         name: 'Mouse',
         age: 10,
