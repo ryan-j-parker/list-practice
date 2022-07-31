@@ -1,4 +1,4 @@
-export const cats = [
+/*export const cats = [
     {
         name: 'Mouse',
         age: 10,
@@ -43,4 +43,4 @@ export const cats = [
             treats: 'tuna'
         },
     },
-];
+];*/

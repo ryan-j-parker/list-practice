@@ -1,4 +1,4 @@
-export const favoriteFoods = [
+/*export const favoriteFoods = [
     {
         name: 'sushi',
         type: 'japanese',
@@ -23,4 +23,4 @@ export const favoriteFoods = [
         healthy: 'pretty healthy',
         expensive: false,
     },
-];
+];*/

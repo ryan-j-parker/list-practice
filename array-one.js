@@ -1,4 +1,4 @@
-const videoGames = [
+/*const videoGames = [
     {
         title: 'The Legend of Zelda: Ocarina of TIme',
         yearReleased: 1998,
@@ -51,4 +51,4 @@ const videoGames = [
 ]
 
 
-    
+    */
