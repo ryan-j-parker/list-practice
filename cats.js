@@ -5,10 +5,17 @@ export const cats = [
         age: 10,
         color: 'calico',
         favorites: {
-            person: 'Ryan',
-            toy: 'squirrel',
+            people: [
+                'Ryan',
+                'Kristin',
+                'Lisa',
+                'Maddie',
+                'strangers',
+            ],
+            toy: 'catnip squirrel',
             treats: 'bonito flakes'
         },
+        mugshot: './assets/mouse-face.png'
     },
     {
         name: 'Clementine',
@@ -16,20 +23,31 @@ export const cats = [
         age: 1,
         color: 'black',
         favorites: {
-            person: 'Maddie',
-            toy: 'anything',
+            people: [
+                'Maddie',
+                'Lisa',
+            ],
+            toy: 'Q-tips',
             treats: 'everything'
         },
+        mugshot: './assets/clementine.png'
     },
     {
         name: 'Bobo',
+        whose: 'Lisa\'s',
         age: 8,
         color: 'grey',
         favorites: {
-            person: 'Lisa',
-            toy: 'banana',
+            people: [
+                'Lisa',
+                'Maddie',
+                'Ryan',
+                'Kristin',
+            ],
+            toy: 'catnip banana',
             treats: 'tuna'
         },
+        mugshot: './assets/bobo-katzen.png'
     },
     {
         name: 'Snackpack',
@@ -37,9 +55,14 @@ export const cats = [
         age: 9,
         color: 'light grey',
         favorites: {
-            person: 'herself',
+            people: [
+                'Britt',
+                'Scratchpaws',
+                'herself',
+            ],
             toy: 'ball',
             treats: 'tuna'
         },
+        mugshot: './assets/snackpack.png'
     },
 ];

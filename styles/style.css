@@ -55,13 +55,31 @@ header {
 #cats-list {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.cat-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Courier New monospace', 'Georgia', 'Garamond', 'serif';
+    
 }
 
 .cat {
+    border-radius: 15px;
     margin: 5px;
     padding: 5px;
     box-shadow: 4px 4px 15px -3px rgb(0 0 0 / 55%);
     background-color: rgba(37, 224, 37, 0.61);
+}
+
+.cat img {
+
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    color: #e415ff;
 }
 
 #foods-list {
@@ -86,10 +104,19 @@ header {
     margin: 5px;
 }
 
+.food-image {
+    height: 220px;
+    width: 220px;
+    object-fit: cover;
+}
+
 #video-games-list {
     color: #00000065;
-    text-align: center;
     grid-gap: 5px;
+}
+
+#video-games-list h1 {
+    color: #000000;
 }
 
 .video-game {
@@ -108,6 +135,7 @@ header {
     width: 200px;
     height: 200px;
     object-fit: cover;
+    margin-top: 10px;
 }
 
 
