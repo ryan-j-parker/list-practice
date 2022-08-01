@@ -9,12 +9,15 @@ export function renderVideoGames(videoGames) {
 
     titleOneEl.textContent = videoGames.title1;
     titleTwoEl.textContent = videoGames.title2;
-    yearReleasedEl.textContent = `released in ${videoGames.yearReleased}`;
-    developerEl.textContent = `developed by: ${videoGames.developer}`;
-
+    yearReleasedEl.textContent = `was released in ${videoGames.yearReleased}`;
+    developerEl.textContent = `and was developed by ${videoGames.developer}`;
+    genresEl.textContent = `and falls into the following genres:`;
     coverEl.src = videoGames.cover;
-    videoGameEl.append(coverEl);
+
     videoGameEl.classList.add('video-game');
+    
+
+    videoGameEl.append(coverEl);
     videoGameEl.append(titleOneEl, titleTwoEl, yearReleasedEl, developerEl, genresEl, coverEl);
 
     for (let genre of videoGames.genres) {

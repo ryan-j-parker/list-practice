@@ -11,13 +11,13 @@ export function renderCats(cat) {
     const mugshotEl = document.createElement('img');
 
     nameEl.textContent = cat.name;
-    whoseEl.textContent = `is ${cat.whose} cat,`;
-    ageEl.textContent = `${cat.name} is ${cat.age} years old`;
+    whoseEl.textContent = `is ${cat.whose}'s cat.`;
+    ageEl.textContent = `${cat.name} is ${cat.age} years old,`;
     colorEl.textContent = `and has a ${cat.color} coat.`;
     favoritesEl.textContent = `Some of ${cat.name}'s favorite things are`;
     peopleEl.textContent = `hanging out with`;    
-    toyEl.textContent = `playing with their ${cat.favorites.toy},`;
-    treatsEl.textContent = `and ${cat.name} really likes to eat ${cat.favorites.treats}`;
+    toyEl.textContent = `and playing with her ${cat.favorites.toy}.`;
+    treatsEl.textContent = `${cat.name}'s favorite treat is ${cat.favorites.treats}.`;
 
     mugshotEl.src = cat.mugshot;
     catEl.append(mugshotEl);

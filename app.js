@@ -1,5 +1,7 @@
-import { sports } from './sports.js';
-import { renderSports } from './render-sports.js';
+
+
+import { sports } from './arrays/sports-data.js';
+import { renderSports } from './functions/render-sports.js';
 
 const sportsListEl = document.getElementById('sports-list');
 
@@ -8,8 +10,8 @@ for (let sport of sports) {
     sportsListEl.append(sportsEl);
 }
 
-import { favoriteFoods } from './favoriteFoods.js';
-import { renderFoods } from './renderFoods.js';
+import { favoriteFoods } from './arrays/foods-data.js';
+import { renderFoods } from './functions/render-foods.js';
 const foodsListEl = document.getElementById('foods-list');
 
 for (let food of favoriteFoods) {
@@ -26,8 +28,8 @@ for (let food of favoriteFoods) {
 // 7. create separate render function
 // 8. plug function back into the loop
 
-import { cats } from './cats.js';
-import { renderCats } from './render-cats.js';
+import { cats } from './arrays/cats-data.js';
+import { renderCats } from './functions/render-cats.js';
 
 const catsList = document.getElementById('cats-list');
 
@@ -37,8 +39,8 @@ for (let cat of cats) {
 }
 
 
-import { videoGames } from './video-games.js';
-import { renderVideoGames } from './render-video-games.js';
+import { videoGames } from './arrays/video-games-data.js';
+import { renderVideoGames } from './functions/render-video-games.js';
 
 const videoGamesList = document.getElementById('video-games-list');
 
